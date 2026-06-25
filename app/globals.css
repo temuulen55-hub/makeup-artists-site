@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Define Variables (Using standard CSS variables) */
+:root {
+  --color-champagne: #f5efe6;
+  --color-charcoal: #2b2925;
+  --color-dusty-rose: #c9a0a0;
+  --color-espresso: #3a2e2a;
+  --color-soft-gold: #c9a66b;
+
+  --header-height: 76px;
+  --mobile-cta-height: 64px;
+}
+
+/* 3. Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-champagne);
+  color: var(--color-charcoal);
+}
+
+/* 4. Custom Components Layer */
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-espresso px-6 py-3
+           font-sans text-sm font-medium text-champagne transition-colors
+           hover:bg-charcoal focus-visible:outline focus-visible:outline-2
+           focus-visible:outline-offset-2 focus-visible:outline-soft-gold;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-charcoal/20
+           bg-transparent px-6 py-3 font-sans text-sm font-medium text-charcoal
+           transition-colors hover:border-dusty-rose hover:text-dusty-rose;
+  }
+
+  .nav-link {
+    @apply font-sans text-sm text-charcoal/80 transition-colors hover:text-charcoal;
+  }
+}
+
+/* 5. Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
