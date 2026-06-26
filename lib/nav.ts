@@ -21,13 +21,13 @@ export const BOOKING_CTA: NavItem = {
 };
 
 export const SITE_CONFIG = {
-  name: "Сараа Makeup",
-  phone: "+976 9911 2233",
-  phoneHref: "tel:+97699112233",
-  email: "hello@saraa-makeup.mn",
-  emailHref: "mailto:hello@saraa-makeup.mn",
-  instagram: "https://instagram.com/saraa.makeup",
-  facebook: "https://facebook.com/saraa.makeup",
+  name: "Temuulen Makeup",
+  phone: "+976 9999 9999",
+  phoneHref: "tel:+97699999999",
+  email: "temuulen.iphone5@gmail.com",
+  emailHref: "mailto:temuulen.iphone5@gmail.com",
+  instagram: "https://instagram.com/temulenni",
+  facebook: "https://www.facebook.com/temuulenn0503",
   hours: "Даваа–Бямба, 10:00–19:00",
   address: "Сүхбаатар дүүрэг, Улаанбаатар",
 };

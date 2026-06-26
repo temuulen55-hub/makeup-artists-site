@@ -26,14 +26,14 @@ const bodyFont = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://saraamakeup.mn",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://temuulenmakeup.mn",
   ),
   title: {
-    default: "Сараа Makeup | Мэргэжлийн гоо сайхны зураач",
-    template: "%s | Сараа Makeup",
+    default: "Temuulen Makeup | Мэргэжлийн гоо сайханч",
+    template: "%s | Temuulen Makeup",
   },
   description:
-    "Сүйт бүсгүйн, фэшн болон өдөр тутмын мэйкап үйлчилгээ — Улаанбаатар хотод. Цаг захиалга, сургалт, бүтээлүүд.",
+    "Гоёлын болон өдөр тутмын мэйкап үйлчилгээ — Улаанбаатар хотод. Цаг захиалга, сургалт.",
 };
 
 export default function RootLayout({

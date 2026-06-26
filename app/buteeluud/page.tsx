@@ -28,7 +28,7 @@ export default function PortfolioPage() {
             Бүтээлийн цомог
           </h1>
           <p className="mt-4 font-sans text-sm text-charcoal/60">
-            Мэргэжлийн түвшинд урласан гоо үзэсгэлэнгийн түүхүүд
+            Мэргэжлийн түвшинд урласан гоо үзэсгэлэнт охидууд маань
           </p>
         </div>
 
@@ -71,6 +71,7 @@ export default function PortfolioPage() {
                 // 1. Render Before/After Slider
                 <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl">
                   <ReactCompareSlider
+                    position={15}
                     itemOne={
                       <ReactCompareSliderImage
                         src={item.imageBefore}

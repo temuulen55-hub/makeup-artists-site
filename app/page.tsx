@@ -7,7 +7,7 @@ export default function HomePage() {
         Гоо сайхныг мэргэжлийн гараар
       </h1>
       <p className="mx-auto mt-5 max-w-xl font-sans text-base text-charcoal/70 lg:text-lg">
-        Сүйт бүсгүйн, фэшн болон өдөр тутмын мэйкап үйлчилгээ — Улаанбаатар
+        Гоёлын нүүр будалт болон өдөр тутмын мэйкап үйлчилгээ — Улаанбаатар
         хотод.
       </p>
       <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

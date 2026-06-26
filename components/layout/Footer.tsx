@@ -14,8 +14,7 @@ export default function Footer() {
               {SITE_CONFIG.name}
             </p>
             <p className="mt-3 max-w-sm font-sans text-sm text-charcoal/70">
-              Сүйт бүсгүй, фэшн болон өдөр тутмын мэйкап үйлчилгээ — Улаанбаатар
-              хотод.
+              Гоёлын болон өдөр тутмын мэйкап үйлчилгээ — Улаанбаатар хотод.
             </p>
 
             {/* Icon grid — Instagram, Facebook, утас (tel:), имэйл (mailto:) */}
@@ -179,6 +178,19 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+
+        {/* Developer Credit */}
+        <p className="mt-4 font-sans text-sm text-charcoal/60 sm:mt-0">
+          Вэбсайтыг бүтээсэн:{" "}
+          <a
+            href="https://temuulenenkhbold.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-charcoal transition-colors hover:text-espresso underline decoration-charcoal/20 underline-offset-4 hover:decoration-espresso"
+          >
+            Temuulen Enkhbold
+          </a>
+        </p>
       </div>
     </footer>
   );

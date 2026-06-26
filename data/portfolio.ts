@@ -45,16 +45,14 @@ export const portfolioData: PortfolioItem[] = [
       "/images/portfolio/b3.jpg",
     ],
   },
-
   {
     id: "Hurimiin-01",
     title: "Хуримын будалт",
     category: "Хурим",
     type: "before-after",
-    imageBefore: "/images/portfolio/d1.jgp",
+    imageBefore: "/images/portfolio/d1.jpg", // Fixed typo
     imageAfter: "/images/portfolio/d2.jpg",
   },
-
   {
     id: "Engiin-01",
     title: "Өдөр тутмын будалт",
@@ -72,16 +70,15 @@ export const portfolioData: PortfolioItem[] = [
     title: "Сэтгүүлны будалт",
     category: "Гоёлын",
     type: "before-after",
-    imageBefore: "/images/portfolio/e1.jgp",
+    imageBefore: "/images/portfolio/e1.jpg", // Fixed typo
     imageAfter: "/images/portfolio/e2.jpg",
   },
-
   {
-    id: "Engiin-02",
+    id: "Engiin-03", // Fixed duplicate ID
     title: "Цэвэрхэн будалт",
     category: "Өдөр тутмын",
     type: "before-after",
-    imageBefore: "/images/portfolio/f1.jgp",
+    imageBefore: "/images/portfolio/f1.jpg", // Fixed typo
     imageAfter: "/images/portfolio/f2.jpg",
   },
 ];
